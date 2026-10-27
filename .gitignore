@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables & sensitive files
+.env
+.env.*
+!.env.example
+!**/.env.example
+*.env
+
+# Production build artifacts
+dist/
+build/
+dist-ssr/
+out/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor & OS files
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.local
+# Coverage y archivos temporales
+coverage/
+*.tmp
+*.bak
+
+# Secretos de certificados y claves privadas
+*.pem
+*.key
